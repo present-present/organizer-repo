@@ -14,7 +14,18 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@organizer-repo/auth": ["libs/auth/src/index.ts"],
+      "@organizer-repo/components": ["libs/components/src/index.ts"],
+      "@organizer-repo/components/auth": ["libs/components/auth/src/index.ts"],
+      "@organizer-repo/components/src/lib/auth": [
+        "libs/components/src/lib/auth/src/index.ts"
+      ],
+      "@organizer-repo/shared-interfaces": [
+        "libs/shared-interfaces/src/index.ts"
+      ],
+      "@organizer-repo/ui": ["libs/ui/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
